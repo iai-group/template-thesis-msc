@@ -2,6 +2,7 @@
 %% MAIN FILE (the one that you compile with LaTeX)
 %% ---------------------------------------------------------------- 
 
+
 % \documentclass[a4paper, 11pt, twoside, openright]{uis-thesis}
 \documentclass[a4paper, 11pt]{uis-thesis}
 \graphicspath{{figures/}}  % Location of the graphics files (set up for graphics to be in PDF format)
@@ -44,7 +45,7 @@
 \begin{document}
 \frontmatter	  % Begin Roman style (i, ii, iii, iv...) page numbering
 % Fill your name and supervisor name and sign it and replace the frontpage.
-\includepdf[offset=25mm -25mm, scale=1]{./frontpage.pdf}
+\includepdf[offset=25mm -25mm, scale=1]{./frontpage-masters.pdf}
 
 % TODO(meling) Fix authors macro to allow multiple entries
 % TODO(meling) Add supervisor macro and possibly other frontpage macros
@@ -84,11 +85,6 @@
 
 \tableofcontents
 
-\input{frontmatter/abbrev}
-\clearpage
-\input{frontmatter/symbols}
-\clearpage
-
 \setstretch{1.3}  % Return the line spacing back to 1.3
 
 \addtocontents{toc}{\vspace{2em}}  % Add a gap in the Contents, for aesthetics
@@ -100,22 +96,19 @@
 % Include the chapters of the thesis, as separate files
 % Just uncomment the lines as you write the chapters
 
-\input{chapters/intro}
-\input{chapters/related}
-\input{chapters/design}
-\input{chapters/eval}
-\input{chapters/discussion}
-\input{chapters/conclusions}
+\input{msc/chapters/introduction}
+\input{msc/chapters/relatedwork}
+\input{msc/chapters/approach}
+\input{msc/chapters/evaluation}
+\input{msc/chapters/conclusions}
 
 %% ----------------------------------------------------------------
 % Now begin the Appendices, including them as separate files
 
 \addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
 
-\listoffigures
-\listoftables
-
 \appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+\input{appendices/appendix}
 \input{appendices/instructions}
 
 \addtocontents{toc}{\vspace{2em}}  % Add a gap in the Contents, for aesthetics
