@@ -246,7 +246,7 @@
       \bigskip
       \bigskip 
       {\large Internal Supervisors \par}
-      {\LARGE Setty 1 \par}
+      {\LARGE Supervisor 1 \par}
       {\LARGE Supervisor 2 \par}
       
        \bigskip
