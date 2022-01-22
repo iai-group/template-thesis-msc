@@ -27,4 +27,5 @@ Change these in `*-thesis.tex`
 | `\authors`        | Multiple authors should be separate with `,` and `and`            |
 |-------------------|-------------------------------------------------------------------|
 
-`Internal Supervisors`, `External Supervisors` and `Reviewers` can be changed in `uis-thesis.cls`
+* `Internal Supervisors`, `External Supervisors` and `Reviewers` can be changed in `uis-thesis.cls`
+* Depending on BSc or MSc thesis change the text in `uis-thesis.cls` to `Bachelor's` or `Masters's` thesis
