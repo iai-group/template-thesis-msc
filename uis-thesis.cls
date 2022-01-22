@@ -149,32 +149,6 @@
 \examiner    {}
 \degree      {}
 \authors     {}
-\university  {\texorpdfstring{\href{http://www.cs.uni-saarland.de/}
-                {\Large Universit\"at des Saarlandes, FR Informatik \\
-      Max-Planck-Institut f\"ur Informatik, AG\,5}}
-                {\Large Universit\"at des Saarlandes, FR Informatik \\
-      Max-Planck-Institut f\"ur Informatik, AG\,5}}
-\UNIVERSITY  {\texorpdfstring{\href{http://www.cs.uni-saarland.de/}
-                {Universit\"at des Saarlandes}}
-                {Universit\"at des Saarlandes}}
-\department  {\texorpdfstring{\href{http://www.mpi-inf.mpg.de/departments/d5/index.html}
-                {Max-Planck-Institut f\"ur Informatik, AG\,5}}
-                {Max-Planck-Institut f\"ur Informatik, AG\,5}}
-\DEPARTMENT  {\texorpdfstring{\href{http://www.mpi-inf.mpg.de/departments/d5/index.html}
-                {Max-Planck-Institut f\"ur Informatik, AG\,5}}
-                {Max-Planck-Institut f\"ur Informatik, AG\,5}}
-\group       {\texorpdfstring{\href{Research Group Web Site URL Here (include http://)}
-                {Research Group Name}}
-                {Research Group Name}}
-\GROUP       {\texorpdfstring{\href{Research Group Web Site URL Here (include http://)}
-                {RESEARCH GROUP NAME (IN BLOCK CAPITALS)}}
-                {RESEARCH GROUP NAME (IN BLOCK CAPITALS)}}
-\faculty     {\texorpdfstring{\href{Faculty Web Site URL Here (include http://)}
-                {Faculty Name}}
-                {Faculty Name}}
-\FACULTY     {\texorpdfstring{\href{Faculty Web Site URL Here (include http://)}
-                {FACULTY NAME (IN BLOCK CAPITALS)}}
-                {FACULTY NAME (IN BLOCK CAPITALS)}}
 \addresses   {}
 \subject     {}
 \keywords    {}
@@ -261,8 +235,8 @@
       \bigskip
       \bigskip 
       {\large Reviewers \par}
-      {\LARGE Reviewer1 \par}
-      {\LARGE Reviewer2 \par}
+      {\LARGE Reviewer 1 \par}
+      {\LARGE Reviewer 2 \par}
       {\LARGE \par}
       
       %\vfill
