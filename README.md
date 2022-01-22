@@ -13,20 +13,5 @@ This repository provides template for BSc and MSc theses. This repository is syn
 
 
 ```shell
-pdflatex example
+pdflatex bsc/bsc-thesis.tex
 ```
-
-
-### Package Commands
-
-The package supports the following commands:
-
-| Command           | Description                                                       |
-|-------------------|-------------------------------------------------------------------|
-| `\title`          | May use `\\` to force line breaks                                 |
-| `\authors`        | Multiple authors should be separate with `,` and `and`            |
-| `\specialization` | Currently, only `cs, ds, ee, med` are supported; more to be added |
-| `\uiscover`       | Display cover page, values 1-9 provide different color schemes    |
-| `\uisbackcover`   | Display back cover using the same color schemes as front cover    |
-| `\faculty`        | Currently, only `tn` is supported                                 |
-| `\restricted`     | Use to print `Restricted Access` on cover page                    |
