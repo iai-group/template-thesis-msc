@@ -15,3 +15,16 @@ This repository provides template for BSc and MSc theses. This repository is syn
 ```shell
 pdflatex bsc/bsc-thesis.tex
 ```
+
+## Usage
+
+
+Change these in `*-thesis.tex`
+
+| Command           | Description                                                       |
+|-------------------|-------------------------------------------------------------------|
+| `\title`          | May use `\\` to force line breaks                                 |
+| `\authors`        | Multiple authors should be separate with `,` and `and`            |
+|-------------------|-------------------------------------------------------------------|
+
+`Internal Supervisors`, `External Supervisors` and `Reviewers` can be changed in `uis-thesis.cls`
