@@ -3,10 +3,10 @@ This repository provides template for BSc and MSc theses. This repository is syn
 
 * If you prefer working on Overleaf, 
   - Make a copy of the project by going one level up (click up arrow) and select the `IAI thesis template` project and select `More -> Make a Copy`
-  - Rename the project to reflect your thesis (e.g, include your names or title and year Bsc-2022-Jane-Jon)
-* If you prefer using own editor and compiler you can create new github repo based on this template repository.
-  - In the cloned GitHub repo compile the `bsc/bsc-thesis.tex` or `msc/msc-thesis.tex` depending on if you are working BSc or MSc thesis.
-  - Rename the repository to reflect your thesis (e.g, include your names or title and year Bsc-2022-Jane-Jon)
+  - Rename the project to reflect your thesis (e.g, include your names or title and year MSc-2022-Jane-Jon)
+* If you prefer using own editor and compiler you can create new GitHub repo based on this template repository.
+  - In the cloned GitHub repo the main file is `msc-thesis.tex`.
+  - Rename the repository to reflect your thesis (e.g, include your names or title and year MSc-2022-Jane-Jon)
 
 ## Compiling
 
@@ -26,4 +26,6 @@ Change these in `*-thesis.tex`
 | `\authors`        | Multiple authors should be separate with `,` and `and`            |
 
 
-* `Internal Supervisors`, `External Supervisors` and `Reviewers` can be changed in `uis-thesis.cls`
+* `Internal Supervisors`, `External Supervisors` can be changed in `uis-thesis.cls`
+* If you only have one `Internal Supervisor` remove the second supervisor. 
+* If you do not have any `External Supervisors` you may remove it.
