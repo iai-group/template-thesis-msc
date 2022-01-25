@@ -1,5 +1,6 @@
 # IAI thesis template
-This repository provides template for BSc and MSc theses. This repository is synced with the Overleaf project https://www.overleaf.com/read/mtmtjzbtbwbm
+
+This repository provides a template for MSc theses. This repository is synced with the Overleaf project [IAI thesis template - master](https://www.overleaf.com/read/mtmtjzbtbwbm).
 
 * If you prefer working on Overleaf, 
   - Make a copy of the project by going one level up (click up arrow) and select the `IAI thesis template` project and select `More -> Make a Copy`
